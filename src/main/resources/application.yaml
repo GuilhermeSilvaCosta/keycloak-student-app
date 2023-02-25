@@ -1,0 +1,7 @@
+keycloak:
+  auth-server-url: http://localhost:8090/auth
+  realm: University
+  resource: student-app
+  credentials:
+    secret: 8kr9wdk6Wqh58qWQS8jhHcrKiMIWRtwi
+  principal-attribute: preferred_username
